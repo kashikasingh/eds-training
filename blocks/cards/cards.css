@@ -5,6 +5,17 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
   grid-gap: 24px;
+  color:red;
+}
+
+html[dir='rtl'] .cards > ul > li{
+  color:purple;
+}
+
+.section.highlight-test .cards li{
+  display: flex;
+  flex-direction: column-reverse;
+  color: red;
 }
 
 .cards > ul > li {
